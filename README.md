@@ -11,7 +11,7 @@ It includes Cognitive workload data of 5 subjects collected using Emotiv Epoc+ d
   
   *TEMPLATE FOLLOWED FOR ALL TASK/EXPERIMENT FOR SUBJECT S01,S02,S03:-
 
-	[<---5s Idle---><---n-Back/Dual-n-Back/Closed Eyes Expirement for total 183 Seconds---><---5s Idle--->]
+	[<---5s Idle---><---Idle/n-Back/Dual-n-Back for total 183 Seconds---><---5s Idle--->]
   
   # Cognitive-Workload Classification codes
   
