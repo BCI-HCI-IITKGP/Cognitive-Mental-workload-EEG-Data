@@ -1,22 +1,43 @@
-# Cognitive-Workload Data
+*THE EEG DATA HAS BEEN CAPTURED @BCI-HCI LAB, COMPUTER SCIENCE & ENGINEERING DEPARTMENT, IIT KHARAGPUR, INDIA.
 
-It includes Cognitive workload data of 5 subjects collected using Emotiv Epoc+ device at BCI-HCI Labaratory in IIT Kharagpur.
+#IMPORTANT NOTE #1
 
-- Five Class Data
-  - Idle
-  - 1-back
-  - 2-back
-  - dual-1-back
-  - dual-2-back
-  
-  *TEMPLATE FOLLOWED FOR ALL TASK/EXPERIMENT FOR SUBJECT S01,S02,S03:-
+*TEMPLATE FOLLOWED FOR ALL TASK/EXPERIMENT FOR SUBJECT S01,S02,S03:-
 
-	[<---5s Idle---><---Idle/n-Back/Dual-n-Back for total 183 Seconds---><---5s Idle--->]
-  
-  # Cognitive-Workload Classification codes
-  
-  Classification of Mental workload Data using Machine Learning algorithms.
-  
-   - 5 class data (Idle, 1-back, 2-back, dual 1-back and dual 2-back)
-   - Using Python and scikit-learn Package.
+	[<---5s Idle---><---n-Back/Dual-n-Back/Closed-Eyes Expirement for total 183 Seconds---><---5s Idle--->]
 
+#IMPORTANT NOTE#2
+
+*TEMPLATE <FOR SUBJECT S04,S05> FOLLOWED FOR ALL TASK/EXPERIMENT:-
+
+	[<---n-Back/Dual-n-Back/Closed-Eyes Expirement for total 183 Seconds--->]
+
+*DEVICE USED:-
+
+	EMOTIVE 	- Epoc+
+	SENSOR COUNT 	- 14+2 references
+	SENSOR 		- AF3, AF4, F3, F4, FC5, FC6, F7, F8, T7, T8, P7, P8, O1, O2
+	SAMPLE RATE	- 128 Hz
+
+*NOTE:-
+	1. THE DATA CAPTURED IS NOT TAGGED/MARKED.
+	
+	2. THE DATA CAPTURED IS VERY BASIC AND TIMINGS ARE NOT VERY ACCURATE(ERROR IN FACTON OF SECONDS MAY EXIST).
+	
+	3. ELECTRODE LOCATION DATA (.CED) FILE HAS BEEN ATTACHED FOR CONVENIENCE.
+	
+	4. DATA IS RAW, i.e, THE ARTIFACTS HAVE NOT BEEN REMOVED.
+	
+	5. DATA IS ['37'X'M'] MATRIX. CHANNEL DATA STARTS FROM CHANNEL#3 - CHANNEL#16 (TOTAL 14 CHANNEL).
+	   PLEASE IGNORE OTHER CHANNELS! HERE 'M' IS THE SIZE/NUMBER OF SAMPLES.
+	   
+	6. ALL FIVE EXPERIMENTS DATA IN RESPECT TO EACH SUBJECT ARE ATTACHED.
+	
+	7. PLEASE SEE THE DIFFERENCE IN TEMPLATE FOLLOWED ABOVE FOR VARIOUS SUBJECTS.
+
+
+BEST WISHES,
+
+BCI TEAM,
+
+IIT KHARAGPUR.
